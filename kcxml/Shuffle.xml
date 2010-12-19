@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<dialog title="Shuffle" buttons="accept,cancel" >
+<grid>
+	<columns>
+		<column/>
+		<column/>
+		<column/>
+	<columns/>
+	<rows>
+		<row>
+			<label value="Property" />
+			<label value="Min Value       " />
+			<label value="Max Value" />
+		</row>
+		<row>
+			<checkbox id="ch_x" label="x" checked="false" />
+			<hbox>
+				<textbox id="x_min" value="0" size="4" />
+				<label value="px" />
+			</hbox>
+			<hbox>
+				<textbox id="x_max" value="500" size="4" />
+				<label value="px" />
+			</hbox>
+		</row>
+		<row>
+			<checkbox id="ch_y" label="y" checked="false" />
+			<hbox>
+				<textbox id="y_min" value="0" size="4" />
+				<label value="px" />
+			</hbox>
+			<hbox>
+				<textbox id="y_max" value="500" size="4" />
+				<label value="px" />
+			</hbox>
+		</row>
+		<row>
+			<checkbox id="ch_s" label="scale" checked="false" />
+			<hbox>
+				<textbox id="s_min" value="10" size="4" />
+				<label value="%" />
+			</hbox>
+			<hbox>
+				<textbox id="s_max" value="100" size="4" />
+				<label value="%" />
+			</hbox>
+		</row>
+		<row>
+			<checkbox id="ch_xs" label="scaleX" checked="false" />
+			<hbox>
+				<textbox id="xs_min" value="10" size="4" />
+				<label value="%" />
+			</hbox>
+			<hbox>
+				<textbox id="xs_max" value="100" size="4" />
+				<label value="%" />
+			</hbox>
+		</row>
+		<row>
+			<checkbox id="ch_ys" label="scaleY" checked="false" />
+			<hbox>
+				<textbox id="ys_min" value="10" size="4" />
+				<label value="%" />
+			</hbox>
+			<hbox>
+				<textbox id="ys_max" value="100" size="4" />
+				<label value="%" />
+			</hbox>
+		</row>
+		<row>
+			<checkbox id="ch_rt" label="rotation" checked="false" />
+			<hbox>
+				<textbox id="rt_min" value="0" size="4" />
+				<label value="deg" />
+			</hbox>
+			<hbox>
+				<textbox id="rt_max" value="360" size="4" />
+				<label value="deg" />
+			</hbox>
+		</row>
+		<row>
+			<checkbox id="ch_al" label="alpha" checked="false" />
+			<hbox>
+				<textbox id="al_min" value="0" size="4" />
+				<label value="%" />
+			</hbox>
+			<hbox>
+				<textbox id="al_max" value="100" size="4" />
+				<label value="%" />
+			</hbox>
+		</row>
+		<row>
+			<checkbox id="ch_br" label="brightness" checked="false" />
+			<hbox>
+				<textbox id="br_min" value="0" size="4" />
+				<label value="%" />
+			</hbox>
+			<hbox>
+				<textbox id="br_max" value="100" size="4" />
+				<label value="%" />
+			</hbox>
+		</row>
+	<rows>
+</grid>
+</dialog>

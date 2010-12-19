@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dialog title="Scale and Rotate" buttons="accept,cancel" >
+	<hbox>
+	<label control="sx" value="xscale:  "/>
+	<textbox id="sx" value="100" size="4" />
+	</hbox>
+	<hbox>
+	<label control="sy" value="yscale:  "/>
+	<textbox id="sy" value="100" size="4" />
+	</hbox>
+	<separator/>
+	<hbox>
+		<label control="rt" value="rotate:  "/>
+		<textbox id="rt" value="0" size="4" />
+	</hbox>
+</dialog>

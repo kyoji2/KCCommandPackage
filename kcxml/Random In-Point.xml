@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<dialog title="Random In-Point" buttons="accept,cancel" >
+	<checkbox id="ch_a" label="forward" checked="true" />
+	<checkbox id="ch_b" label="backward" checked="true" />
+	<separator/>
+	<hbox>
+		<label control="range" value="Range: "/>
+		<textbox id="range" value="5" size="3"/>
+		<label value="frames"/>
+    </hbox>
+</dialog>

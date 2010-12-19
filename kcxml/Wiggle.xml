@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<dialog title="Wiggle" buttons="accept,cancel" >
+	<hbox>
+		<label value="Dimensions:     "/>
+		<checkbox id="ch_x" label="x" checked="true" />
+		<checkbox id="ch_y" label="y" checked="true" />
+	</hbox>
+
+	<hbox>
+	<label control="minValue" value="Minimum Value:  "/>
+	<textbox id="minValue" value="0" size="3"/>
+	<label value="px"/>
+    </hbox>
+
+	<hbox>
+	<label control="maxValue" value="Maximum Value: "/>
+	<textbox id="maxValue" value="5" size="3"/>
+	<label value="px"/>
+    </hbox>
+</dialog>

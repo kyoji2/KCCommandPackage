@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<dialog title="Sequence Layers" buttons="accept,cancel" >
+	<radiogroup id="seq">
+		<radio label="Bottom up" />
+		<radio label="Top down" />
+		<separator/>
+	</radiogroup>
+
+	<hbox>
+	<label control="overlap" value="Overlap: "/>
+	<textbox id="overlap" value="0" size="3"/>
+	<label value="frames"/>
+    </hbox>
+</dialog>

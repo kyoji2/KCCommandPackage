@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<dialog title="[KC] Spread" buttons="accept,cancel" >
+	<hbox>
+	<label control="Number of Steps" value="Number of Steps:"/>
+	<textbox id="steps" value="10" size="6" />
+	</hbox>
+	<separator/>
+
+	<hbox>
+	<label control="spacing_x" value="Spacing X:  "/>
+	<textbox id="spacing_x" value="10" size="6"/>
+	</hbox>
+
+	<hbox>
+	<label control="spacing_y" value="Spacing Y:  "/>
+	<textbox id="spacing_y" value="0" size="6"/>
+	</hbox>
+
+	<hbox>
+	<label control="alpha" value="Alpha:         "/>
+	<textbox id="alpha" value="0" size="6"/>
+	</hbox>
+
+	<hbox>
+	<label control="rotation" value="Rotation:    "/>
+	<textbox id="rotation" value="0" size="6"/>
+	</hbox>
+	
+	<hbox>
+	<label control="scale" value="Scale:          "/>
+	<textbox id="scale" value="0" size="6"/>
+	</hbox>
+
+</dialog>

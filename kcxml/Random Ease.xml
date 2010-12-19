@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<dialog title="Random Ease" buttons="accept,cancel" >
+	<checkbox id="ch_a" label="in" checked="true" />
+	<checkbox id="ch_b" label="out" checked="true" />
+	<separator/>
+	<hbox>
+		<label control="min" value="Min Value: "/>
+		<textbox id="min" value="0" size="3"/>
+		<label control="max" value="Max Value: "/>
+		<textbox id="max" value="100" size="3"/>
+    </hbox>
+</dialog>

@@ -1,0 +1,9 @@
+<dialog id="replaceInLibrary" title="Search and replace names in library">
+ <flash id="testFlash" width="400" height="230" src="../swf/renameInLibrary.swf">
+ <property id="find" />
+ <property id="replace" />
+ <property id="regexp" />
+ <property id="ignorecase" />
+ <property id="allname" />
+</dialog>
+
