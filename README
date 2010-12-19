@@ -1,0 +1,20 @@
+KC Command Package
+
+- Usage:
+
+Copy all these files to your flash's command directory.
+
+	for Windows:
+	C:\Users\[user]\AppData\Local\Adobe\Flash CS5\en_US\Configuration\Commands\
+	
+	for Mac:
+	/Users/[user]/Library/Application Support/Adobe/Flash CS5/Configuration/Commands/
+
+- AUTHOR:
+
+Kevin Cao ( http://kevincao.com )
+
+
+- CHANGELOG:
+
+v1.0.0
